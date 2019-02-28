@@ -1,0 +1,19 @@
+#userid{
+position:absolute;
+left:67%;
+}
+#userid ul {
+    
+    list-style:none;
+    
+}
+#userid li{
+    
+    
+    float:left;
+    padding-left:40px;
+}
+.logout {
+    
+    border-left:1px solid black;
+}

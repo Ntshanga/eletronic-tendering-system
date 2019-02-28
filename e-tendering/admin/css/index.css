@@ -1,0 +1,90 @@
+#menu {
+position: relative;
+width:100%;
+height: ;
+
+}
+#menu nav {
+	position: absolute;
+	
+
+	width: 20%;
+	height:100%;
+
+	
+}
+#menu ul {
+	border-right: 1px solid black;
+
+
+
+	list-style: none;
+
+}
+#menu li {
+	padding: 17px 10px;
+	
+}
+#menu a{
+
+	text-decoration: none;
+}
+#menu a:link {
+    color: red;
+}
+
+/* visited link */
+#menu a:visited {
+    color: green;
+}
+
+/* mouse over link */
+#menu a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+#menu a:active {
+    color: blue;
+}
+#loginpage {
+	position: absolute;
+	top:50px;
+	left:40%;
+}
+#loginpage input[type=text], select {
+width: 120%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+    
+}
+#loginpage input[type=password], select{
+    
+    width: 120%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#loginpage input[type=submit]{
+    width: 50%;
+    background-color: #992309;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#viewcomments {
+    position: absolute;
+    top:50px;
+    left:25%;
+}

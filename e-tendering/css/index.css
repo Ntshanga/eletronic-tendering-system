@@ -1,0 +1,380 @@
+body img{
+	background-repeat: no-repeat;
+
+}
+
+/* this is the header content. it wraps the logo and the navigation menu */
+#header1{
+
+	width:100%;
+	height: 150px;
+	
+	position:relative;
+	border-bottom:1px solid #992309;
+
+
+}
+/* this the logo container*/
+
+#logo{
+	position:absolute;
+	top: 2%;
+	left:1.6%;
+	background: rgb(186, 191, 198);
+	z-index: 2;
+	opacity: 0.9;
+    -moz-opacity: 0.9;
+    -webkit-opacity: 0.9;
+
+	border-bottom:1px solid #992309;
+	
+	
+}
+#logo img{
+	margin-left:44px;
+	padding:0px;
+}
+#logo h3{
+
+	padding:0px;
+	margin:0px;
+	font-style: italic;
+	color: #992309;
+}
+ /*this is the navigation container. should be on the same line as the logo*/
+
+#navmenu{
+	position: absolute;
+	
+	left:14%;
+
+
+
+
+}
+
+#navmenu ul{
+	list-style: none;
+
+
+}
+
+#navmenu ul li{
+
+}
+
+#navmenu li{
+	float:left;
+	padding-left: 30px;
+	
+
+
+}
+#navmenu a{
+text-decoration: none;
+color: #992309;
+
+}
+#navmenu img{
+	padding:5px;
+}
+#registration_tab{
+    
+    position:absolute;
+    left: 92%;
+    top:15%;
+}
+#registration_tab a{
+    text-decoration:none;
+    padding:11px;
+    padding-right:15px;
+    background-color: #992309;
+    color:white;
+    border:1px solid white;
+    border-radius:10px;
+    
+}
+
+/*this is the login container. contain form contain inputs, and label elements*/
+
+#tender_table {
+
+	width:668px;
+	position: absolute;
+	left:3%;
+	top:9%;
+	font-family: arial, sans-serif;
+    border-collapse: collapse;
+
+}
+#tender_registration{
+position:absolute;
+left:65%;
+background-image:url("images/bid.jpeg");
+}
+#tender_registration h3{
+    
+    padding-top:30px;
+    padding-bottom:30px;
+    padding-left:50px;
+    padding-right:50px;
+    color:#992309;
+    background-color:#dddddd;
+    
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+}
+
+#tender_registration form{
+    border:2px solid #dddddd;
+    padding-top:0px;
+    
+}
+#tender_registration input[type=text], select {
+width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+    
+}
+#tender_registration input[type=password], select{
+    
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#tender_registration input[type=submit]{
+    width: 100%;
+    background-color: #992309;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#tender_registration input[type=submit]:hover {
+    background-color: #45a049;
+}
+#tender_table img {
+  margin-bottom:5px;
+}
+#tender_table table{
+	background-color: white;
+
+}
+
+#tender_table td{
+
+border-top: 1px solid #992309 ;
+    text-align: left;
+    padding: 17px 8px;
+
+}
+#tender_table th{
+
+padding:7px;
+
+}
+#tender_table td:first-child {
+  border-left: 1px solid #cecfd5;
+}
+#tender_table tr:nth-child(even) {
+  background: #f0f0f2;
+  }
+/*contain registration details*/
+
+
+
+/*this contain the tender table, login form and the registration from. there are four divs in this container*/
+#tender_content{
+	position:relative;
+	height:600px;
+	
+	
+
+}
+#tender_content p{
+	color: #992309;
+	margin-left: 10px;
+}
+
+/*this contain the login form and the registration form*/
+#container form {
+    
+    position:absolute;
+    left:67%;
+    width: 500px;
+}
+
+/*tender_info contain four divs. about div, contact div, help div and features div. it shoud be position relative*/
+#tender_info{
+
+	position:relative;
+	height:450px;
+	border-bottom: 1px solid black;
+	
+	width:100%;
+}
+/*this div contain the features of e-tendering*/
+#features{
+
+	position: absolute;
+	border-right: 1px solid black;
+	left:2%;
+	width:600px;
+	height:400px;
+
+	
+}
+#features p{
+    font-size:20px;
+    
+}
+#features ul{
+margin-top:0px;
+}
+
+#features li{
+padding-bottom:17px;
+padding-top: 10px;
+}
+#features p{
+	margin-bottom:0px;
+}
+/*this div contain about content*/
+#about{
+
+position:absolute;
+width:580px;
+left:56%;
+top:10%;
+height:400px;
+
+}
+#about p{
+	padding-top:5px;
+    color:black;
+    
+    
+
+}
+#pabout{
+	margin-left: 40%;
+    font-weight:block;
+    font-size:28px;
+    
+}
+/*this div contain the help div, contact div and the footer.*/
+#contactus{
+	width:100%;
+	position: relative;
+
+}
+#contactus h2{
+	font-style: italic;
+	font-size: 16px;
+	margin-left:30%;
+}
+#help{
+
+	position:absolute;
+	left:67%;
+    
+
+}
+#help p{
+    
+    color:black;
+}
+.helpcontent{
+margin-left:52px;
+}
+#giveusname{
+	padding-right:20px;
+	padding-top:12px;
+	padding-bottom: 12px;
+	padding-left: 10px;
+
+
+}
+#tender_contact{
+    
+    
+
+}
+#tender_contact input[type=text] {
+
+width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid red;
+}
+#tender_contact input[type=submit]{
+background-color:#992309;
+   color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; 
+    
+}
+#tender_contact label{
+    
+    color:black;
+}
+#giveusemail{
+
+	padding-right: 150px;
+	margin-top:14px;
+	margin-bottom: 14px;
+	padding-top:10px;
+	padding-bottom: 10px;
+	border-radius: 7px solid grey;
+
+}
+#submitprob{
+	margin-top:10px;
+	padding:5px;
+	background-color: #82adf2;
+}
+#footer{
+	position:absolute;
+    top:120%;
+    width:100%;
+	
+	border-top: 1px solid black;
+
+}
+#footer ul{
+	list-style: none;
+	margin-left: 26%;
+
+}
+#footer li{
+
+	float:left;
+	padding:20px;
+	border-left: 1px solid black;
+}
+#footer a{
+	text-decoration: none;
+	color:black;
+    
+}
+.gotologinpage {
+    
+    
+    color:black;
+}

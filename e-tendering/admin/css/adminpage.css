@@ -1,0 +1,72 @@
+#welcomeadmin{
+
+	position: absolute;
+	top:49px;
+	left:50%;
+}
+#welcomeadmin ul{
+
+	list-style: none;
+
+}
+#welcomeadmin li{
+	float: left;
+	padding: 0px 20px;
+
+}
+#username{
+	border-right: 1px solid black;
+}
+#showtender{
+position: absolute;
+	top:50px;
+	left:27%;
+
+
+}
+#showtender input[type=text], select {
+width: 120%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+    
+}
+#showtender input[type=password], select{
+    
+    width: 120%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#showtender input[type=submit]{
+    width: 50%;
+    background-color: #992309;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#showtender table{
+	border-collapse: collapse;
+}
+#showtender th td{
+
+	padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+#showtender tr:hover{
+	background-color:#f5f5f5;
+
+
+
+}

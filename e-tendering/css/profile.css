@@ -1,0 +1,41 @@
+#available_tenders label{
+	color:black;
+
+
+}
+#available_tenders table{
+
+	margin-left: 50px;
+}
+#available_tenders td{
+
+	padding:20px 10px;
+}
+#available_tenders th{
+
+	color:green;
+}
+#available_tenders input[type='text']{
+
+	padding:10px;
+	padding: 10px;
+  border: solid 5px #c9c9c9;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+#available_tenders input[type="text"]:focus,
+#available_tenders input[type="text"].focus {
+  border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #969696;
+}
+#available_tenders input[type=submit]{
+    width: 20%;
+    
+    background-color: #992309;
+    color: white;
+    padding: 10px 15px;
+    margin: 8px 60px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+

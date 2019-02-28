@@ -1,0 +1,83 @@
+
+#overallmenu{
+
+
+position: relative;
+width:100%;
+
+}
+#membersmenu {
+
+	position: absolute;
+	
+	left:0;
+	height: 100%;
+	border-right: 1px solid #000005;
+	width: 20%;
+
+
+}
+#membersmenu ul {
+
+	list-style: none;
+}
+#membersmenu li {
+
+
+	padding:15px 5px;
+	
+
+}
+#membersmenu li:hover{
+	background-color: #adaed6;
+	
+}
+#available_tenders{
+
+	
+	
+	position:absolute;
+	top:100%;
+	left:24%;
+	margin-top: 50px;
+	}
+	#bidtenders{
+
+	
+	
+	position:absolute;
+	top:100%;
+	left:24%;
+	margin-top: 50px;
+	}
+	#bidtenders input[type=submit]{
+	
+    width: 20%;
+    background-color: #992309;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#bidtenders h3{
+	color: #042a68;
+}
+
+
+#flip table{
+	border-collapse: collapse;
+}
+#flip th td{
+
+	padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+#flip tr:hover{
+	background-color:#f5f5f5;
+
+
+
+}
